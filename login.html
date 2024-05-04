@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/Bootstrap/fontawesome-free-6.4.2-web/css/all.min.css">
+        <link rel="stylesheet" href="styles1.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- <tittle><u> <h4> Petsy | Pet Food & Accessories | Petsy Deals </h4></u></tittle> -->
+<style>
+    /* body{
+        background-color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    navbarNav navbar-nav.nav-items a{
+        color: black;
+        text-decoration: none;
+        display: inline;
+    } */
+    #navtext{
+        color: black;
+        text-decoration: solid;
+    }
+    .mb-2{
+        color: black;
+        text-decoration: solid;
+        /* display: grid; */
+    }
+    .flex-container{
+        display: flex;
+    }
+
+
+.search-bar button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+.carousel-inner{
+  border-width: 50px;
+  /* border-style: solid; */
+  background-color: white;
+}
+.headdings {
+            text-align: center;
+        }
+.card1{
+    background-color: #0DCAF0;
+    color: black;
+}
+
+.conatiner{
+            width: 1264px;
+            height: 550px;
+            /* background-color: rgb(236, 134, 209); */
+            background-image: url("https://wallpapercave.com/wp/wp9736704.jpg");
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+            background-size: cover;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .grid-items{
+            background-color: white;
+            height: 400px;
+            width: 400px ;
+            margin: 6px;
+            border-radius: 20px;
+        }
+        #ele2{
+            /* width: 500px;
+            height: 500px; */
+            margin-left: 120px;
+            margin-top: 60px;
+            text-align: right;
+            background-color:#0DCAF0 ;
+            
+        }
+        form{
+            margin-left: 30px;
+            /* margin-top: 180px; */
+        }
+        #ele1{
+            width: 600px;
+            height: 540px;
+            /* margin-left: 200px;
+            margin-top: 90px; */
+            background-image: url("https://html.design/wp-content/uploads/2022/04/furherd.png");
+            background-size: cover;
+
+        }
+        fieldset{
+            width: 300px;
+        }
+        #logo{
+            height: 150px;
+            background-image: url("https://i.pinimg.com/564x/82/9b/cd/829bcd4f9666f3c1056e18d48c33e60d.jpg");
+            width: 150px ;
+            background-size: cover;
+            margin-left: 120px;
+            border-radius: 100px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+
+        }
+       
+
+
+
+</style>
+<body>
+   
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-info ">
+        <div class="container-fluid mt-1">
+            <a class="navbar-brand" href="#"><img src="https://www.petsmart.com/on/demandware.static/Sites-PetSmart-Site/-/default/dwb9336230/images/petsmart-logo.png" alt="Image Not Found" style="width: 100px">
+            <button class="navbar-toggler" type="button" data-bs-toogle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggler navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
+            <ul class="navbar-nav">
+               
+                <div class="search-bar">
+                    <input type="text" placeholder="search breeds...">
+                    <a href="www.google.com"> <button  type="submit">Search</button></a>
+                  </div>
+                <li class="nav-item">
+                    <a class="nav-link"   href="#">.</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navtext" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navtext" href="cats.html">Cats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navtext" href="dogs.html">Dogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navtext" href="ourngos.html">Our NGOs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navtext" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navtext" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+           
+        </div>
+    </a>
+    </div>
+    </nav>
+    
+<!-- contact -->
+    <!-- <div class="d-flex justify-content-between" style="background-color: rgb(243, 239, 14);">
+        <h5><i class="text-center"><i class="fa-solid fa-phone"></i>Phone : 000000000</h5>
+        <h5><i class="fa-solid fa-envelpoe"></i> Email : petsy@gmail.com</h5>
+        </div> -->
+
+<!-- corcole -->
+<div class="conatiner">
+    <div class="grid-items" id="ele1"></div>
+    <div class="grid-items" id="ele2">
+        <div class="grid-items" id="logo"></div>
+        <form>
+            <fieldset>
+                <legend> Login Here</legend>
+                <table>
+                    <tr>
+                        <td><lable>USERNAME</lable></td>
+                        <td><input type="text" placeholder="username"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><lable>PASSWORD</lable></td>
+                        <td><input type="password" placeholder="password"></td>
+                        
+
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit">
+                            <input type="reset">
+                        </td>
+                       
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+
+
+
+<!-- footer -->
+    <footer class="bd-footer py-5 mt-5 bg-info text-light">
+     
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card1">
+                        <div class="card-body">
+                          <h5 class="card-title">Our Stores</h5>
+                          <p class="card-text">Address: 25A, Park Street, Kolkata, West Bengal, India.<br>456 Park Avenue, Bangalore, Karnataka, India <br> Uppadengali, Guntur, Andhrapradesh, India.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card1">
+                        <div class="card-body">
+                          <h5 class="card-title">Our Best Hospitals</h5>
+                          <p class="card-text">Dr. Aisha's Veterinary Clinic<br>Paws & Claws Animal Hospital<br> Furry Friends Veterinary Care</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card1">
+                        <div class="card-body">
+                          <h5 class="card-title">Services</h5>
+                          <p class="card-text">Wellness exams, parasite prevention, nutritional counseling, senior pet care, Emergency care, diagnostic imaging, dental care, behavioral counseling, General check-ups, vaccinations, surgeries, grooming</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card1">
+                        <div class="card-body">
+                          <h5 class="card-title">PET PARENTS ALSO SEARCHED:</h5>
+                          <p class="card-text">Dog Food | Dry Dog Food | Cat Food | Wet Cat Food | parasite prevention, nutritional counseling, senior pet care, Emergency Petsy Treats | Royal Canin  Hay | Vitamins & Supplements | Petsy Treats | Royal Canin  Hay | Vitamins & Supplements</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+    </head>
+</html>
